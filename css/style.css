@@ -411,9 +411,6 @@ button {
   list-style: none;
   justify-content: space-around;
 }
-.input-group-append input button{
-width: 1rem;
-}
 .input-group-append button{
   background:hsl(257, 10%, 27%)!important ;
   width: 5rem;
