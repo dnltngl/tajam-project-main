@@ -1,0 +1,401 @@
+#banner {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/assets/backgrounds/bg-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(253, 46%, 25%);
+  background-blend-mode: overlay;
+}
+
+#banner h1 {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+#banner p {
+  color: #fff;
+  letter-spacing: 1px;
+  width: 54em;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+}
+#banner hr {
+  margin: 10px;
+  height: 1px; /* Adjust the height as needed */
+  background-color: hsl(176, 100%, 44%); /* Adjust the color as needed */
+  border: none;
+}
+#banner hr {
+  margin: 10px;
+  width: 3rem;
+  height: 1px; /* Adjust the height as needed */
+  background-color: hsl(176, 100%, 44%); /* Adjust the color as needed */
+  border: none;
+  padding: 1px;
+  display: inline-block;
+  border: none;
+}
+
+#story {
+  padding: 4rem;
+  margin-left: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+#story h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+#story button {
+  margin-top: 3rem;
+}
+/* header{
+position: absolute;
+z-index: 1;
+color: white;
+display: flex;
+} */
+
+hr {
+  border: 1px solid hsl(176, 100%, 44%);
+}
+.navbar-nav {
+  text-decoration: none;
+  color: white;
+}
+.navbar-nav a {
+  color: white;
+  font-size: 18px;
+  font-family: "Hammersmith One", "sans-serif";
+}
+.navbar-nav a:hover {
+  color: cyan;
+}
+
+#building-vid {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  background-image: url(/assets/backgrounds/bg-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(253, 46%, 25%);
+  background-blend-mode: overlay;
+}
+.playbtn {
+  width: 10rem;
+  margin-left: 40em;
+  margin-top: 5em;
+}
+.playbtntxt {
+  color: white;
+  margin-left: 24em;
+  margin-top: 1em;
+  font-size: 1.5em;
+}
+button {
+  border-block-start-color: 1px;
+  color: hsl(176, 100%, 44%);
+  border-color: hsl(176, 100%, 44%);
+  background-color: transparent;
+  width: 10rem;
+  height: 2.5rem;
+}
+#banner button {
+  margin-top: 3rem;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+.full-width-hr-divider {
+  height: 2px;
+}
+.full-width-divider[data-divider-2] {
+  background-color: hsl(0, 0%, 50%, 0.2);
+  grid-column: span 3;
+}
+.expertise > div {
+  grid-template-columns: repeat(3, minmax(150px, 1fr));
+  grid-template-rows: auto 2px auto;
+  border-collapse: collapse;
+}
+.expertise div > article {
+  padding: 1.5rem;
+}
+.expertise div > article:is(:nth-child(2), :nth-child(6)) {
+  border-inline: 1px solid hsl(0, 0%, 50%, 0.2);
+}
+.expertise div > article h3 {
+  font-size: 0.875rem;
+  font-weight: var(--fw-black);
+}
+.expertise div > article p {
+  font-size: 0.875rem;
+}
+.heading-title-size {
+  font-size: 2rem;
+}
+
+#expertise h3 {
+  font-family: "Hammersmith One", "sans-serif";
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+#expertise {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+#expertise p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+#expertise hr {
+  margin: 10px;
+  width: 3rem;
+  height: 1px;
+  background-color: hsl(257, 10%, 27%);
+  border: none;
+  padding: 1px;
+  display: inline-block;
+  border: none;
+}
+
+#team {
+  height: 90vh;
+
+  background-image: url(/assets/backgrounds/bg-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(253, 46%, 25%);
+  background-blend-mode: overlay;
+}
+#team h2 {
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+#team h3 {
+  margin-top: 1rem;
+  color: white;
+  font-family: "Hammersmith One", "sans-serif";
+}
+#team p {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+#team h6 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 30px 20px;
+  gap: 2rem;
+}
+.blocks-img {
+  height: 20rem;
+  width: 18rem;
+}
+.txt-banner {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+.p-tag {
+  margin-top: -5rem;
+}
+.team-btn {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.box-border {
+  border: 0.1rem solid hsl(255, 4%, 38%) !important ;
+}
+#projects {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+}
+#projects h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+.dribble-projects {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+#projects a {
+  text-decoration: none;
+  color: hsl(0, 0%, 20%);
+}
+.our-works > div {
+  grid-template-columns: repeat(6, minmax(150px, 1fr));
+}
+.our-works > div div {
+  height: 11rem;
+}
+.our-works
+  > div
+  div:is(:first-child, :nth-child(5), :nth-child(8), :last-child) {
+  background-color: #b6b6b6;
+}
+.our-works > div div:is(:nth-child(4), :nth-child(9)) {
+  background-color: #8a8a8a;
+}
+.our-works > div div:is(:nth-child(2), :nth-child(11)) {
+  background-color: #acacac;
+}
+.our-works > div div:is(:nth-child(6), :nth-child(7)) {
+  background-color: #a4a4a4;
+}
+.our-works > div div:is(:nth-child(3), :nth-child(10)) {
+  background-color: #a1a1a1;
+}
+
+#quotes {
+  height: 60vh;
+  background-image: url(/assets/backgrounds/bg-4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(253, 46%, 25%);
+  background-blend-mode: overlay;
+}
+.quatation {
+  margin-top: 7rem;
+}
+#quotes .quatation img {
+  margin-top: 4rem;
+  width: 40px;
+  height: 30px;
+}
+#quotes .quatation {
+  display: flex;
+  align-items: center;
+}
+.quotestxt {
+  margin-top: 2rem;
+  letter-spacing: 1px;
+  width: 43rem;
+  margin-left: 20rem;
+}
+.pclass {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+#news {
+  height: 60vh;
+}
+
+#news .email-form {
+  padding: 5rem;
+  border-radius: 5px;
+}
+
+#news h2 {
+  margin-bottom: 20px;
+}
+
+#news .grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#news .grid-item {
+  border: 0px;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#news .grid-item img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.grid-container h2 {
+  margin-top: 4rem;
+}
+#news button {
+  margin-top: 1rem;
+  border-block-start-color: 1px;
+  color: hsl(176, 100%, 44%);
+  border-color: hsl(176, 100%, 44%);
+  background-color: transparent;
+  width: 10rem;
+  height: 2.5rem;
+}
+
+/* studio section */
+#studio {
+  height: 40vh;
+  background-image: url(/assets/backgrounds/bg-5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(253, 46%, 25%);
+  background-blend-mode: overlay;
+}
+
+#studio .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+  gap: 20px; /* Adds 20px gap between columns and rows */
+  padding: 20px;
+  margin-top: 5rem;
+
+  border-radius: 5px;
+}
+#studio .grid-item {
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+#studio .grid-item h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+#studio .grid-item p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+/* #studio .logo {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto 20px;
+} */
+#studio .icon-group {
+  margin-top: 20px;
+}
+#studio .icon-group img {
+  max-width: 50px;
+  margin-right: 10px;
+}
+.down-menu {
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-around;
+}
