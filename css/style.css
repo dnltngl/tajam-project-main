@@ -245,7 +245,7 @@ button {
   border: 0.1rem solid hsl(255, 4%, 38%) !important ;
 }
 #projects {
-  height: 25vh;
+  height: 20vh;
   display: flex;
   justify-content: center;
 }
@@ -256,11 +256,12 @@ button {
 .dribble-projects {
   display: flex;
   justify-content: space-around;
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 #projects a {
   text-decoration: none;
   color: hsl(0, 0%, 20%);
+  font-size: 1.5rem;
 }
 .our-works > div {
   grid-template-columns: repeat(6, minmax(150px, 1fr));
