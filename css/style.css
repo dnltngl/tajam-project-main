@@ -25,15 +25,15 @@
 }
 #banner hr {
   margin: 10px;
-  height: 1px; /* Adjust the height as needed */
-  background-color: hsl(176, 100%, 44%); /* Adjust the color as needed */
+  height: 1px; 
+  background-color: hsl(176, 100%, 44%); 
   border: none;
 }
 #banner hr {
   margin: 10px;
   width: 3rem;
-  height: 1px; /* Adjust the height as needed */
-  background-color: hsl(176, 100%, 44%); /* Adjust the color as needed */
+  height: 1px; 
+  background-color: hsl(176, 100%, 44%); 
   border: none;
   padding: 1px;
   display: inline-block;
@@ -63,12 +63,6 @@ width: .5rem;
 #story button {
   margin-top: 3rem;
 }
-/* header{
-position: absolute;
-z-index: 1;
-color: white;
-display: flex;
-} */
 
 hr {
   border: 1px solid hsl(176, 100%, 44%);
@@ -363,7 +357,7 @@ button {
   height: 2.5rem;
 }
 
-/* studio section */
+
 #studio {
   height: 40vh;
   background-image: url(/assets/backgrounds/bg-5.png);
@@ -375,8 +369,8 @@ button {
 
 #studio .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
-  gap: 20px; /* Adds 20px gap between columns and rows */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
   padding: 20px;
   margin-top: 5rem;
 
@@ -395,11 +389,7 @@ button {
   font-size: 16px;
   line-height: 1.6;
 }
-/* #studio .logo {
-  max-width: 100px;
-  display: block;
-  margin: 0 auto 20px;
-} */
+
 #studio .icon-group {
   margin-top: 20px;
 }
