@@ -1,5 +1,5 @@
 #banner {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,6 +8,7 @@
   background-size: cover;
   background-color: hsl(253, 46%, 25%);
   background-blend-mode: overlay;
+  
 }
 
 #banner h1 {
@@ -39,6 +40,17 @@
   border: none;
 }
 
+#banner > div .dot-nav .active {
+height: .5rem;
+width: .5rem;
+  background-color: hsl(176, 100%, 44%);
+}
+#banner > div .dot-nav .inactive  {
+  background-color: transparent;
+  border: 2px solid WHITE;
+  height: .5rem;
+  width: .5rem;
+}
 #story {
   padding: 4rem;
   margin-left: 2rem;
@@ -398,4 +410,7 @@ button {
   text-decoration: none;
   list-style: none;
   justify-content: space-around;
+}
+.input-group-append{
+  color: #8a8a8a;
 }
