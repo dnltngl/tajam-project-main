@@ -7,61 +7,82 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/color.css">
   <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/reset.css">
   <title>Tajam</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-    crossorigin="anonymous"></script>
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+  crossorigin="anonymous"
+/>
+<script
+  src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+  integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+  integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+  crossorigin="anonymous"
+></script>
+<!-- GOOGLE FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@100&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@100&display=swap"
+  rel="stylesheet"
+/>
 </head>
 
 <body>
 
   <header>
-    <section id="navbar">
-      <nav class="position-relative container">
-        <div class="position-absolute top-0 w-100 p-4 d-flex justify-content-between">
-          <div class="d-flex justify-content-start align-items-center ">
-            <img src="assets/logo/Vector Smart Object.png" alt="tajam logo">
-            <img src="assets/logo/tajam.png" alt="tajamtxt">
-
+    <div class="container d-flex align-items-center justify-content-center">
+      <nav class="navbar navbar-expand-lg justify-content-center pt-5">
+        <div class="container-fluid pt-5">
+          <a class="navbar-brand logo" href="#">
+            <img
+              src="assets/logo/vectortajam.png"
+              alt="Tajam Logo"
+              style="width: max-content"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarNavAltMarkup"
+            style="font-weight: bolder"
+          >
+            <div class="navbar-nav">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                style="color: #52c3c0; margin-left: 13rem"
+                >HOME</a
+              >
+              <a class="nav-link text-white" href="#story">ABOUT</a>
+              <a class="nav-link text-white" href="#expertise">EXPERTISE</a>
+              <a class="nav-link text-white" href="#team">TEAMS</a>
+              <a class="nav-link text-white" href="#works">WORKS</a>
+              <a class="nav-link text-white" href="#peopleSay">PEOPLE SAY</a>
+              <a class="nav-link text-white" href="#contact">CONTACT</a>
+            </div>
           </div>
-          <ul class="navbar-nav d-flex flex-row gap-4 text-white text-uppercase">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Expertise</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Teams</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Works</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">People Say</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-
+          </div>
         </div>
       </nav>
-    </section>
+    </div>
   </header>
   <!-- start banner-->
   <section id="banner">
     <div class="container">
       <div class="row">
-        <div class=" banner-box mt-5 col-12 text-center">
+        <div class="col-12 text-center">
           <h1>We Are Awesome Creative Agency</h1>
           <hr><br>
           <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
@@ -70,13 +91,8 @@
           <br>
           <button>Learn More</button>
         </div>
-        <div class="dots mt-lg-5">
-          <div class="dot-nav d-flex gap-3 justify-content-center mt-5">
-            <button class="p-1 rounded-circle active"></button>
-            <button class="p-1 rounded-circle inactive"></button>
-            <button class="p-1 rounded-circle inactive"></button>
-            <button class="p-1 rounded-circle inactive"></button>
-          </div>
+        <div class="dots"></div>
+
       </div>
     </div>
   </section>
@@ -106,103 +122,79 @@
     </div>
   </section>
 
-  <section id="building-vid">
+  <section id="building">
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <div class="playbtn"><img src="assets/icons/play button.png" alt=""></div>
-          <h2 class="playbtntxt">WATCH OUR STORY</h2>
+        <div class="col-12 text-center">
+          <button class="playbtn mb-4">
+            <img src="assets/icons/play button.png" alt="Play Button" />
+          </button>
+          <p style="font-weight: bold text center">WATCH OUR STORY</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="expertise">
-    <div class="containers">
-      <div class="row">
-        <div class="col-12">
-          <div>
-            <section class="expertise custom-container mx-auto d-grid py-custom-1">
-              <header class="pb-custom-1 text-center  playfair-display">
-                <h2 class="heading-title-size fw-bold text-clr-neutral-1">EXPERTISE</h2>
-                <p class="fw-regular text-clr-neutral-1">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
-              </header>
-
-              <div class="d-grid">
-                <article class="d-grid gap-4 justify-items-center text-center">
-                  <img src="/assets/icons/desktop.png" alt="Desktop icon">
-                  <div class="d-grid justify-items-center text-center">
-                    <h3>WEB DESIGN & DEVELOPMENT</h3>
-                    <p class="w-75">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                      auctor
-                      aliquet
-                      Aenean.</p>
-                  </div>
-                </article>
-
-                <article class="d-grid gap-4 justify-items-center text-center">
-                  <img src="/assets/icons/brush.png" alt="Brush icon">
-                  <div class="d-grid justify-items-center text-center">
-                    <h3>BRANDING IDENTITY</h3>
-                    <p class="w-75">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                      auctor
-                      aliquet
-                      Aenean.</p>
-                  </div>
-                </article>
-
-                <article class="d-grid gap-4 justify-items-center text-center">
-                  <img src="/assets/icons/phone.png" alt="Mobile icon">
-                  <div class="d-grid justify-items-center text-center">
-
-                    <h3>MOBILE APP</h3>
-                    <p class="w-75">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                      auctor
-                      aliquet
-                      Aenean.</p>
-                  </div>
-                </article>
-
-                <div class="full-width-divider" data-divider-2></div>
-
-                <article class="d-grid gap-4 justify-items-center text-center">
-                  <img src="/assets/icons/chart.png" alt="Chart icon">
-                  <div class="d-grid justify-items-center text-center">
-
-                    <h3>SEARCH ENGINE OPTIMIZATION</h3>
-                    <p class="w-75">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                      auctor
-                      aliquet
-                      Aenean.</p>
-                  </div>
-
-                </article>
-
-                <article class="d-grid gap-4 justify-items-center text-center">
-                  <img src="/assets/icons/gamepad.png" alt="Gamepad icon">
-                  <div class="d-grid justify-items-center text-center">
-
-                    <h3>GAME DEVELOPMENT</h3>
-                    <p class="w-75">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                      auctor
-                      aliquet
-                      Aenean.</p>
-                  </div>
-                </article>
-
-                <article class="d-grid gap-4 justify-items-center text-center">
-                  <img src="/assets/icons/heart.png" alt="Heart icon">
-                  <div class="d-grid justify-items-center text-center">
-
-                    <h3>MADE WITH LOVE</h3>
-                    <p class="w-75">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                      auctor
-                      aliquet
-                      Aenean.</p>
-                  </div>
-                </article>
-              </div>
-            </section>
+   <section id="expertise">
+    <div class="container">
+      <div class="">
+        <div class="center">
+          <div class="col align-self-center title">
+            <h4 class="fw-bold">EXPERTISE</h4>
+            <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+            <hr style="height: 2px; width: 4rem" />
+          </div>
+          <div class="row pt-5 division">
+            <div class="col" style="border-right: 1px solid #ebeaea">
+              <img src="/assets/icons/desktop.png" alt="Desktop icon" />
+              <h6>WEB DESIGN AND DEVELOPMENT</h6>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </div>
+            <div class="col pt-2" style="border-right: 1px solid #ebeaea">
+              <img src="/assets/icons/brush.png" alt="Brush icon" />
+              <h6>BRANDING IDENTITY</h6>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </div>
+            <div class="col">
+              <img src="/assets/icons/phone.png" alt="Mobile icon" />
+              <h6>MOBILE APP</h6>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col pt-5" style="border-right: 1px solid #ebeaea">
+              <img src="/assets/icons/chart.png" alt="Chart icon" />
+              <h6>SEARCH ENGINE OPTIMIZATION</h6>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </div>
+            <div class="col pt-5" style="border-right: 1px solid #ebeaea">
+              <img src="/assets/icons/gamepad.png" alt="Gamepad icon" />
+              <h6>GAME DEVELOPMENT</h6>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </div>
+            <div class="col pt-5">
+              <img src="/assets/icons/heart.png" alt="Heart icon" />
+              <h6>MADE WITH LOVE</h6>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -331,131 +323,147 @@
     </div>
   </section>
 
-
-  <section id="news">
+  <section id="brand" style="margin-left: 8rem">
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="email-form">
-            <h2>GIVE US GOOD NEWS</h2>
-            <form>
-              <div class="form-group">
-                <label for="name"></label>
-                <input type="text" class="form-control" id="name" placeholder="Name">
-              </div>
-              <div class="form-group">
-                <label for="emailTo"></label>
-                <input type="email" class="form-control" id="emailTo" placeholder=" Email">
-              </div>
-              <div class="form-group">
-                <label for="emailSubject"></label>
-                <input type="text" class="form-control" id="emailSubject" placeholder="Subject">
-              </div>
-              <div class="form-group">
-                <label for="emailMessage"></label>
-                <textarea class="form-control" id="emailMessage" rows="4" placeholder="Your message"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-6">
+            <h4 class="title fw-bold">GIVE US A GOOD NEWS</h4>
+          </div>
+          <div class="col-6">
+            <h4 class="title fw-bold">OUR HAPPY CLIENT</h4>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="grid-container">
-            <h2>OUR HAPPY CLIENT</h2><br>
-            <div class="grid-item">
-              <img src="assets/logo/Zara_Logo.svg.png" alt="Image 1">
+        <div class="row">
+          <div class="col-6">
+            <div class="mb-3 mt-4 w-75">
+              <input
+                type="email"
+                class="form-control1 mb-3"
+                id="exampleFormControlInput1"
+                placeholder="Name"/>
+              <input
+                type="email"
+                class="form-control1 mb-3"
+                id="exampleFormControlInput1"
+                placeholder="Email"/>
+              <input
+                type="email"
+                class="form-control1 mb-3"
+                id="exampleFormControlInput1"
+                placeholder="Subject"/>
             </div>
-            <div class="grid-item">
-              <img src="assets/logo/Logo_of_Mango_(new).svg.png" alt="Image 2">
+            <div class="mb-3 w-75">
+              <textarea
+                class="form-control1"
+                id="exampleFormControlTextarea1"
+                rows="8"
+                placeholder="Your Message"
+                style="resize: none"></textarea>
             </div>
-            <div class="grid-item">
-              <img src="assets/logo/1280px-Barneys_New_York_Logo.svg.png" alt="Image 3">
-            </div>
-            <div class="grid-item">
-              <img src="assets/logo/1280px-Gucci_Logo.svg.png" alt="Image 4">
-            </div>
-            <div class="grid-item">
-              <img src="assets/logo/Calvin_klein_logo.svg.png" alt="Image 5">
-            </div>
-            <div class="grid-item">
-              <img src="assets/logo/1280px-Logo_NIKE.svg.png" alt="Image 6">
-            </div>
-            <div class="grid-item">
-              <img src="assets/logo/Converse_logo.svg.png" alt="Image 7">
-            </div>
-            <div class="grid-item">
-              <img src="assets/logo/Puma_Logo.svg.png" alt="Image 8">
-            </div>
-            <div class="grid-item">
-              <img src="assets/logo/1280px-Levi_s_logo.svg.png" alt="Image 9">
-            </div>
-            <div class="grid-item">
-              <img src="assets/logo/Billabong.svg.png" alt="Image 10">
-            </div>
+            <button class="btn1">SUBMIT</button>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <section id="studio">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="grid-container text-white">
-            <!-- Content 1 - Logo on Top -->
-            <div class="d-grid gap-4">
-              <div class="d-flex align-items-center gap-2">
-                <img src="assets/logo/Vector Smart Object.png" alt="Logo" class="logo">
-                <img src="assets/logo/tajam.png" alt="">
-              </div>
-              <p>lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit
-                amet auctror a ornare odio non mauris vitae erat in elit</p>
-              <div class=" down-menu d-flex">
-                <li>HELP</li>
-                <li>TERMS & CONDITION</li>
-                <li>PRIVACY</li>
-              </div>
-            </div>
-            <!-- Content 2 - Contact Information -->
-            <div class="grid-item">
-              <h2>OUR STUDIO</h2>
-              <div class="location">
-                <img src="assets/icons/big104.png" alt=""><span>Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13,
-                  Kalideres - Jakarta Barat
-                  11480 - Indonesia</span><br>
-              </div>
-              <div>
-                <img src="assets/icons/phone351.png" alt=""><span>(+62) 21-2224 3333</span>
-              </div>
-            </div>
-            <!-- Content 3 - Newsletter Input with Icons -->
-            <div class="grid-item newsletter">
-              <h2>STAY IN TOUCH</h2>
-
-              <div class="input-group mb-3">
-                <input type="email" class="form-control" placeholder="Subscribe to our newsletter">
-                <div class="input-group-append ">
-                  <button class="btn btn-primary" type="button"><img src="assets/icons/paper122.png" alt=""></button>
+          <div class="col-6">
+            <div class="row">
+              <div class="col-6">
+                <div class="pt-4"><img src="assets/logo/Zara_Logo.svg.png" alt="" /></div>
+                <div class="pt-5"><img src="assets/logo/Logo_of_Mango_(new).svg.png" alt="" /></div>
+                <div class="pt-5"><img src="assets/logo/1280px-Barneys_New_York_Logo.svg.png" alt="" /></div>
+                <div class="pt-5"><img src="assets/logo/1280px-Gucci_Logo.svg.png" alt="" />
+                </div>
+                <div class="pt-5"><img src="assets/logo/Calvin_klein_logo.svg.png" alt="" />
                 </div>
               </div>
-              <div class="icon-group">
-                <img src="assets/icons/facebook25.png" alt="Icon 1">
-                <img src="assets/icons/twitter16.png" alt="Icon 2">
-                <img src="assets/icons/dribbble4.png" alt="Icon 3">
-                <img src="assets/icons/instagram3.png" alt="Icon 5">
-                <img src="assets/icons/google26.png" alt="Icon 6">
-                <img src="assets/icons/youtube13.png" alt="Icon 6">
+              <div class="col-6"><div class="pt-4"><img src="assets/logo/1280px-Logo_NIKE.svg.png" alt="" />
+                </div>
+                <div class="pt-5"><img src="assets/logo/Converse_logo.svg.png" alt="" />
+                </div>
+                <div class="pt-5"><img src="assets/logo/Puma_Logo.svg.png" alt="" /></div>
+                <div class="pt-5"><img src="assets/logo/1280px-Levi_s_logo.svg.png" alt="" /></div>
+                <div class="pt-5"><img src="assets/logo/Billabong.svg.png" alt="" /></div>
               </div>
-              <br>
-              <footer>Copyright © 2015 - Tajem Creative</footer>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <footer id="contact">
+    <div class="container">
+      <div class="row pt-4" style="margin-left: 4rem">
+        <div class="col">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/logo/vectortajam.png"
+              alt=""
+              style="width: max-content"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <p class="pe-4 pt-3 pb-4" style="font-weight: lighter">
+            lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+            sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare
+            odio non mauris vitae erat in elit
+          </p>
+
+          <span class="d-flex align-items-left justify-content-left pt-4">
+            <p class="pe-4">HELP</p>
+            <p class="pe-4">TERMS & CONDITION</p>
+            <p class="pe-4">PRIVACY</p>
+          </span>
+        </div>
+        <div class="col pt-4">
+          <h6>OUR STUDIO</h6>
+          <div class="row">
+            <div class="col-1 pt-3 fixed">
+              <img src="assets/zLoc.png" alt="" class="pb-4 pb-xxl-0" />
+              <img src="assets/zPhone.png" alt="" class="pt-5" />
+            </div>
+            <div class="col" style="font-weight: lighter">
+              <p class="pt-3 pe-4">
+                Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres -
+                Jakarta Barat 11480 - Indonesia
+              </p>
+              <p>(+62) 21-2224 3333</p>
+            </div>
+          </div>
+        </div>
+        <div class="col pt-4">
+          <h6 class="mb-4">STAY IN TOUCH</h6>
+          <div>
+            <button
+              type="button"
+              class="btn1"
+              style="
+                border: 1px solid #fff;
+                color: #fff;
+                font-weight: lighter;
+                padding: 10px;
+                width: 13rem;
+              "
+            >
+              Subscribe our newsletter
+            </button>
+            <img src="assets/icons/papersend.png" alt="" />
+          </div>
+          <div class="pt-3 pb-5">
+            <img src="assets/icons/facebook25.png" alt=""/>
+            <img src="assets/icons/twitter16.png" alt=""/>
+            <img src="assets/icons/dribbble4.png" alt=""/>
+            <img src="assets/icons/instagram3.png" alt=""/>
+            <img src="assets/icons/google26.png" alt=""/>
+            <img src="assets/icons/youtube13.png" alt=""/>
+          </div>
+          <div class="ps-5 ms-3" style="padding-top: 1rem">
+            <span style="font-size: 14px"
+              >Copyright © 2015 - Tajem Creative
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
