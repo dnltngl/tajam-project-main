@@ -68,6 +68,13 @@ header .logo {
   border: 1px solid #03d5c9; color: #03d5c9; padding: 10px
 }
 
+.btn3 .toggle_btn{
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
 #story {
   padding: 4rem;
   margin-left: 2rem;
@@ -87,6 +94,10 @@ hr {
 .navbar-nav {
   text-decoration: none;
   color: white;
+  flex-direction: row !important;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 .navbar-nav a {
   color: white;
@@ -96,9 +107,15 @@ hr {
 .navbar-nav a:hover {
   color: cyan;
 }
+@media (max-width:750px) {
+  .hidden-md {
+    display: none !important;
+    
+  }
+}
 
 #building {
-  height: 80vh;
+ 
   display: flex;
   align-items: center;
   background-image: url(/assets/backgrounds/bg-2.png);
@@ -114,6 +131,11 @@ hr {
 .playbtn {
   background-color: #0000 !important;
   border: none;
+}
+.play-btn-container {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
 }
 
 button {
@@ -173,7 +195,7 @@ button {
 } 
 
 #team {
-  height: 100vh;
+
 
   background-image: url(/assets/backgrounds/bg-3.png);
   background-repeat: no-repeat;
@@ -279,17 +301,19 @@ button {
 }
 
 #quotes {
-  height: 60vh;
   background-image: url(/assets/backgrounds/bg-4.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: hsl(253, 46%, 25%);
   background-blend-mode: overlay;
+  text-align: center;
+  margin-inline: auto;
 }
 .quatation {
   margin-top: 7rem;
 }
 #quotes .quatation img {
+  aspect-ratio: 1;
   margin-top: 4rem;
   width: 40px;
   height: 30px;
@@ -301,8 +325,9 @@ button {
 .quotestxt {
   margin-top: 2rem;
   letter-spacing: 1px;
-  width: 43rem;
-  margin-left: 20rem;
+  max-width: 50ch;
+  margin-inline: auto;
+
 }
 .pclass {
   display: flex;
@@ -318,50 +343,6 @@ button {
   width: 10rem;
   height: 2.5rem;
 } 
-/* #news {
-  height: 70vh;
-}
-
-#news .email-form {
-  padding: 5rem;
-  border-radius: 5px;
-}
-
-#news h2 {
-  margin-bottom: 20px;
-}
-
-#news .grid-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  padding: 20px;
-  border-radius: 5px;
-}
-
-#news .grid-item {
-  border: 0px;
-  padding: 10px;
-  text-align: center;
-  font-size: 18px;
-}
-
-#news .grid-item img {
-  max-width: 100%;
-  max-height: 100%;
-}
-.grid-container h2 {
-  margin-top: 4rem;
-}
-#news button {
-  margin-top: 1rem;
-  border-block-start-color: 1px;
-  color: hsl(176, 100%, 44%);
-  border-color: hsl(176, 100%, 44%);
-  background-color: transparent;
-  width: 10rem;
-  height: 2.5rem;
-} */
 
 
 #contact {
@@ -398,6 +379,31 @@ button {
   display: flex;
   justify-content: space-evenly;
 }
+li {
+  text-decoration: none;
+  list-style: none;
+}
+.dropdown_menu{
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  height: 0;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.dropdown_menu.open{
+  height: 240px;
+}
+.dropdown_menu li{
+  padding: 0,7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* CSS for Mobile Devices (up to 767px) */
 @media (max-width: 767px) {
@@ -407,6 +413,9 @@ button {
     margin: 0;
     overflow-x: hidden!important ;
   }
+  .btn3 .toggle_btn{
+    display: block;
+  }
   #banner h1 {
     font-size: 28px;
   }
@@ -414,9 +423,7 @@ button {
     padding: 110px;
   }
 
-  #story .col-5 {
-    display: none;
-  }
+ 
   
   #team .blocks-img {
     margin-bottom: 20px;
@@ -432,13 +439,14 @@ button {
     margin: 0;
     overflow-x: hidden!important ;
   }
+  .btn3 .toggle_btn{
+    display: block;
+  }
   #banner h1 {
     font-size: 40px;
   }
 
-  #story .col-5 {
-    display: none;
-  }
+
 
   #team .blocks-img {
     margin-bottom: 20px;
@@ -452,6 +460,9 @@ button {
     width:100%;
     margin: 0;
     overflow-x: hidden!important ;
+  }
+  .btn3 .toggle_btn{
+    display: block;
   }
   #banner h1 {
     font-size: 48px;
